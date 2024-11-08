@@ -3,8 +3,8 @@ services:
     build: infra/docker/ssh-server
     privileged: true
     environment:
-      - GIT_NAME=Lorenzo Fornara
-      - GIT_EMAIL=h4shell@gmail.com
+      - GIT_NAME=Mattia Pedersoli
+      - GIT_EMAIL=mattiapedersoli786@gmail.com
     entrypoint: /usr/bin/entrypoint.sh
     container_name: environment-server
     hostname: "->env"
